@@ -867,7 +867,6 @@ p.virtues-sub-heading{
 
 /* Home Blog Section */
 
-
 /* section2 */
 section{
   transition: all 0.4s ease;
@@ -888,7 +887,7 @@ section{
    transition: all 0.3s ease;
   width: auto;
   margin-bottom: 30px;
-  height: auto;
+  height: 620px;
 }
 
 
@@ -1074,6 +1073,31 @@ background-color: red !important;
 
 /* Resonsive */
 
+@media (max-width: 1300px) {
+  .we__offer_card{
+    height: 700px;
+  }
+}
+
+
+@media (max-width: 1220px) {
+ .we__offer_card{
+  height:600px ;
+ }
+}
+@media (max-width: 1000px) {
+  .we__offer_card{
+   height:650px ;
+  }
+} 
+@media (max-width: 910px) {
+  .we__offer_content .blog-icon {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    gap: 0.9rem;
+  }
+}
+
 @media (max-width: 910px) {
 
 .we__offer_content .blog-icon {
@@ -1086,7 +1110,7 @@ gap: 0.9rem;
 
 @media (max-width: 900px) {
 .we__offer_card {
-  width: 430px; 
+  width: 350px; 
 }
 
 .we__offer_content h2{
@@ -1102,9 +1126,20 @@ font-weight: 500;
 padding: 0px;
 }
 }
+@media (max-width: 600px) {
 
+  .we__offer_card{
+    min-height: 500px;
+  }
+  
+  }
 
 @media (max-width: 450px) {
+
+  .we__offer_card{
+    height: 490px;
+  }
+
 .we__offer .swipe-heading h1{
 
 font-size: 1.1rem;
@@ -1154,6 +1189,9 @@ padding-left: 10px;
 
 @media (max-width: 345px) {
 
+  .we__offer_card{
+    height: 530px;
+  }
 
 .we__offer_card  .course_img  img {
   width: 100%;
@@ -1170,8 +1208,6 @@ padding-left: 4px;
    font-size: 0.6rem; 
 }
 }
-
-
 
 
 /* Associations with partners section */
